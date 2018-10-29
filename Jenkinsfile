@@ -12,7 +12,7 @@ node {
 
    stage 'Setup'
 
-        sh 'npm install --python=python2.7'
+        sh 'npm install --python=python2.7 --strict-ssl=false'
 
 
 
