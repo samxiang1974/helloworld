@@ -1,22 +1,27 @@
 {
   "name": "helloworld",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "",
   "main": "helloworld.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "test": "node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/samxiang1974/helloworld.git"
+    "url": "git+https://github.com/samxiang1974/helloworld.git"
   },
+  "keywords": [],
   "author": "",
-  "license": "BSD",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/samxiang1974/helloworld/issues"
   },
+  "homepage": "https://github.com/samxiang1974/helloworld#readme",
   "devDependencies": {
-    "mocha": "~2.5.3",
-    "zombie": "~3.0.15"
+    "mocha": "^2.5.3",
+    "zombie": "^3.0.15"
   }
 }
